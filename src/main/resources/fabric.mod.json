@@ -14,12 +14,15 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "as.png",
+  "icon": "assets/pseudopscience/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "com.github.camsmall.pseudopscience.PseudoPscience"
+    ],
+    "client": [
+      "com.github.camsmall.pseudopscience.PseudoPscienceClient"
     ]
   },
   "mixins": [

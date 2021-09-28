@@ -1,10 +1,7 @@
 {
   "variants": {
-    "charged=false": {
+    "": {
       "model": "pseudopscience:block/particular_analysis_device"
-    },
-    "charged=true": {
-      "model": "pseudopscience:block/particular_analysis_device_charged"
     }
   }
 }
