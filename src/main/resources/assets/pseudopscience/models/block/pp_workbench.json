@@ -1,0 +1,12 @@
+{
+  "parent": "block/bedrock",
+  "textures": {
+    "down": "pseudopscience:block/pp_workbench_bottom",
+    "up": "pseudopscience:block/pp_workbench_top",
+    "north": "pseudopscience:block/pp_workbench_side",
+    "south": "pseudopscience:block/pp_workbench_side",
+    "east": "pseudopscience:block/pp_workbench_side",
+    "west": "pseudopscience:block/pp_workbench_side"
+
+  }
+}

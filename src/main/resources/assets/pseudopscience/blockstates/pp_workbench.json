@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "charged=false": {
+      "model": "pseudopscience:block/pp_workbench"
+    },
+    "charged=true": {
+      "model": "pseudopscience:block/pp_workbench_charged"
+    }
+  }
+}
