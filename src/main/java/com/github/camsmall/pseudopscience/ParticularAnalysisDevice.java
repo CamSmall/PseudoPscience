@@ -6,7 +6,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.Inventory;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.util.ActionResult;
@@ -15,13 +14,13 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class PPWorkbench extends Block implements BlockEntityProvider {
+public class ParticularAnalysisDevice extends Block implements BlockEntityProvider {
 
     // Variables
     public static final BooleanProperty CHARGED = BooleanProperty.of("charged");
 
     // Constructor
-    public PPWorkbench(Settings settings) {
+    public ParticularAnalysisDevice(Settings settings) {
         super(settings);
         setDefaultState(getStateManager().getDefaultState().with(CHARGED, false));
     }
@@ -82,7 +81,7 @@ public class PPWorkbench extends Block implements BlockEntityProvider {
 
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-        return new PPWorkbenchBlockEntity(pos, state);
+        return new ParticularAnalysisDeviceBlockEntity(pos, state);
     }
 
 }

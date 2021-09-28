@@ -1,7 +1,7 @@
 {
   "itemGroup.pseudopscience.general": "Pseudo Pscience",
-  "block.pseudopscience.pp_workbench": "PP Workbench",
-  "item.pseudopscience.pp_workbench": "PP Workbench",
+  "block.pseudopscience.particular_analysis_device": "Particular Analysis Device",
+  "item.pseudopscience.particular_analysis_device": "Particular Analysis Device",
   "item.pseudopscience.medium_particle": "Particle",
   "item.pseudopscience.large_particle": "Large Particle",
   "item.pseudopscience.small_particle": "Small Particle"

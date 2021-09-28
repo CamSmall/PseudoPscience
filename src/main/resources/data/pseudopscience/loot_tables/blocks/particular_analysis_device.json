@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "pseudopscience:pp_workbench"
+          "name": "pseudopscience:particular_analysis_device"
         }
       ],
       "conditions": [
